@@ -4,24 +4,24 @@ This is a simple FAQ chatbot built using Flask and Natural Language Processing (
 
 ### 🚀 Features
 
-✅ Handles common FAQs using machine learning
-✅ Built with Flask for easy web integration
-✅ Uses TF-IDF for text processing
-✅ Simple and lightweight
+* ✅ Handles common FAQs using machine learning
+* ✅ Built with Flask for easy web integration
+* ✅ Uses TF-IDF for text processing
+* ✅ Simple and lightweight
 
 ### 🔧 Setup & Run
 
 1️⃣ Install dependencies:
 
-`pip install flask nltk scikit-learn requests`
+  `pip install flask nltk scikit-learn requests`
 
 2️⃣ Run the Flask app:
 
-`python your_flask_file.py`
+  `python your_flask_file.py`
 
 3️⃣ Send a request using Python (client.py):
 
-`import requests`
+  `import requests`
 
 *url = "http://127.0.0.1:5000/chat"
 data = {"message": "How do I reset my Google password?"}*
